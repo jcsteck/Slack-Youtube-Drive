@@ -1,0 +1,28 @@
+{
+  "name": "slack-drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "googleapis": "^39.2.0",
+    "install": "^0.12.2",
+    "qs": "^6.6.0",
+    "request": "^2.88.0",
+    "wget": "0.0.1",
+    "ws": "^6.1.2",
+    "youtube-dl": "^1.13.1",
+    "youtube-dl-progress": "^1.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node bin/www.js",
+    "dev": "node -r dotenv/config bin/www.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
